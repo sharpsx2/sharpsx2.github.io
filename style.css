@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#main,
+#logo,
+#menubar,
+#site_content,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #252726;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+}
+
+.equip {
+  animation: colorRotate2 3.5s infinite;
+}
+
+.content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.content2 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #363837;
+}
+
+.active {
+  color: white;
+  animation: colorRotate 3.5s infinite;
+}
+
+.rainbow2 {
+  animation: colorRotate2 3.5s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    background-color: #6666ff;
+  }
+  10% {
+    background-color: #0099ff;
+  }
+  50% {
+    background-color: #00ff00;
+  }
+  75% {
+    background-color: #ff3399;
+  }
+  100% {
+    background-color: #6666ff;
+  }
+}
+
+@keyframes colorRotate2 {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+#footer {
+  width: 898px;
+  font: normal 100% "lucida sans unicode", arial, sans-serif;
+  height: 55px;
+  padding: 24px 0 5px 0;
+  text-align: center;
+  background: transparent;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+#footer {
+  width: 898px;
+  font: normal 100% "lucida sans unicode", arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center;
+  background: transparent;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.button {
+  background: #252726;
+  background-color: #252726;
+  cursor: pointer;
+  border: solid;
+  border-color: #383a39;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background 0.25s ease-in-out;
+}
+.button:hover {
+  background: #474948;
+}
+
+#projectsPassmanBtn {
+  list-style-type: none;
+  margin: 0;
+  background: #252726;
+  background-color: #252726;
+  cursor: pointer;
+  border: solid;
+  border-color: #383a39;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background 0.25s ease-in-out;
+}
+#projectsPassmanBtn:hover {
+  background: #474948;
+}
+
+#li2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar {
+  float: left;
+}
+
+#sidebar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#sidebar a:hover:not(.active) {
+  background-color: #474948;
+}
+
+#sidebar a.active {
+  color: white;
+  animation: colorRotate 3.5s infinite;
+}
